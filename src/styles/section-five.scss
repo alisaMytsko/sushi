@@ -1,0 +1,135 @@
+.section-five{
+    position: relative;
+}
+.container-five{
+max-width: 1205px;
+margin:0 auto;
+padding: 187px 0;
+display:flex;
+flex-wrap:wrap;
+}
+h5{
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+}
+.active--block{
+    text-align:center;
+}
+.pic-five{
+    position: absolute;
+    top:50px;
+    left:150px;
+}
+.pic-six{
+    position: absolute;
+    top:140px;
+    right:50px;
+}
+.pic-oneactive{
+    position: absolute;
+    bottom:70px;
+    right:700px;
+}
+
+
+.section-six{
+    background-image: url(../img/phon.two.1440.974.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.pink-bg{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(#ff7f7f, 0.7);
+    position: absolute;
+}
+.container-six{
+    z-index: 10;
+    position: relative;
+    margin:0 auto;
+    padding:178px 0 0 0;
+    max-width: 830px;
+    text-align: center;
+    color:#fff;
+        p{
+            font-weight: 400;
+            font-size: 33px;
+        }
+        span{
+            font-weight: 700;
+            font-size: 45px;
+        }
+}
+// ------------section-seven-----
+.section-seven{
+    background-image: url(../img/phon.six.1440.796.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 796px;
+    position: relative;
+}
+.container-seven{
+    width: 880px;
+    margin:0 auto;
+    color:#ff7f7f;
+    text-align: center;
+    padding-top:183px;
+        h6{
+            margin:0;
+            font-weight: 700;
+            font-size: 58px;
+            text-transform: uppercase;
+        }
+        p{
+            font-weight: 400;
+            font-size: 30px;
+            margin:60px 0 85px 0;
+        }
+        .subscribe_input{
+            font-size: 25px;
+            color: #8a8a8a;
+            background: #f4f4f4;
+            padding: 20px 25px;
+            border-radius: 40px;
+            width: 50%;
+            max-width: 700px;
+            border: none;
+        }
+        .subscribe_btn{
+        position: relative;
+        left: -60px;
+        border: 0;
+        background: #ff7f7f;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 700;
+        color: #fff;
+        padding: 22px 30px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+
+}
+.block-three{
+    position: absolute;
+    bottom:40px;
+    left:420px;
+}
+.block-two{
+    position: absolute;
+    top:35px;
+    right:150px;
+}
+.block-four{
+    position: absolute;
+    top:80px;
+    left:60px;
+}
