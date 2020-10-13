@@ -2,6 +2,62 @@
     position: relative;
     z-index: 4;
     color:#fff;
-    width: 994px;
-    margin:0 auto;
+    margin: 541px auto 0;
+    text-align: center;
+
+}
+h2{
+    font-weight: 700;
+    font-size: 59px;
+    text-transform: uppercase;
+}
+.pink-block{
+    width: 100%;
+    height: 500px;
+    background: #ff7f7f;
+    position: relative;
+    p{
+        font-size: 25px;
+        font-weight: 400;
+        margin:0;
+        letter-spacing: 0.9px;
+    }
+
+}
+.container-plate{
+    display:flex;
+    flex-wrap: wrap;
+    width: 990px;
+    margin: 40px auto 0;
+    align-items: center;
+}
+.flex-plate{
+    flex-basis: 33%;
+    .title{
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: normal;
+        margin: 0 0 6px 0;
+        top:-15px;
+        position: relative;
+    }
+    p{
+        font-weight: 400;
+        font-size: 17px;
+    }
+    .active--plate{
+        margin-top:9px;
+    }
+}
+.absolut-picture{
+    .pic-one{
+        position: absolute;
+        top: 150px;
+        left:0;
+    }
+    .pic-two{
+        position: absolute;
+        top: 50px;
+        right:70px;
+    }
 }
