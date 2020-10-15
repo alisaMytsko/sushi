@@ -12,6 +12,12 @@
     display:flex;
     flex-wrap:wrap;
 }
+.big-picone{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    margin:0 auto;
+}
 .flex-block{
     flex-basis: 50%;
     color: #ff7f7f;
@@ -20,11 +26,13 @@
         font-weight: 700;
         text-transform: uppercase;
         margin: 40px 0 0 0;
+        padding-left:20px;
     }
     p{
         font-size: 30px;
         font-weight: 400;
         margin: 30px 0 60px;
+        padding-left:20px;
     }
     button{
         background:  #ff7f7f;
@@ -35,12 +43,13 @@
         border: none;
         padding:25px 80px;
         border-radius: 50px;
+        margin-left:20px;
     }
 }
 .section-four{
     background: #ff7f7f;
     width: 100%;
-    height: 797px;
+    height: auto;
     text-align: center;
     position: relative;
 }
@@ -66,6 +75,7 @@
 .container-four{
     max-width: 1300px;
     margin:94px auto 0;
+    padding-bottom: 125px;
     display:flex;
     
     flex-wrap: wrap;
@@ -107,4 +117,63 @@
         position: absolute;
         right:500px;
     }
+}
+@media (max-width: 990px){
+    .container-three{
+        margin:50px auto 0;
+    }
+
+    .flex-block{
+        flex-basis: 100%;
+    }
+    .flex-block{
+        h3{
+            font-size: 45px;
+            margin: 30px 0 0 0;
+            padding-left:20px;
+        }
+        p{
+            font-size: 25px;
+            margin: 10px 0 30px;
+            padding-left:20px;
+        }
+        button{
+            background:  #ff7f7f;
+            color:#fff;
+            font-size: 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+            padding:25px 80px;
+            border-radius: 50px;
+            margin-left:20px;
+        }
+    }
+    .container-four{
+        .flex-menu{
+            flex-basis: 100%;
+            padding-bottom:60px;
+        }
+        .flex-menu:last-child{
+            padding-bottom: 0;
+        }
+    }
+    .picture-box{
+        .pic-three{
+            position: absolute;
+            top:90px;
+            left:30px;
+        }
+        .pic-four{
+            position: absolute;
+            top:750px;
+            right:50px;
+        }
+        .pic-activtwo{
+            position: absolute;
+            left:100px;
+            bottom:-30px;
+        }
+    }
+    
 }

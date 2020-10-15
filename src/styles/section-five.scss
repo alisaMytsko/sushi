@@ -13,9 +13,16 @@ h5{
     font-weight: 700;
     text-transform: uppercase;
     margin: 40px 0 0 0;
+    padding-left:20px;
 }
 .active--block{
     text-align:center;
+}
+.big-picone{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    margin:0 auto;
 }
 .pic-five{
     position: absolute;
@@ -132,4 +139,36 @@ h5{
     position: absolute;
     top:80px;
     left:60px;
+}
+.block-six{
+    position: absolute;
+    bottom:-50px;
+    right:200px;
+}
+
+
+@media (max-width: 990px){
+    .container-five{
+        padding: 50px 0;
+        h5{
+            font-size: 45px;
+            margin: 40px 0 0 0;
+            
+        }
+    }
+    .active--block{
+        padding-top: 50px;
+    }
+    .pic-five{
+        display:none;
+    }
+    .pic-six{
+        top:100px;
+        right:50px;
+    }
+    .pic-oneactive{
+        bottom:70px;
+        left:30px;
+    }
+
 }
