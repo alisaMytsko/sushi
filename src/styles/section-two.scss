@@ -88,3 +88,28 @@ h2{
     }
 
 }
+
+@media (max-width: 990px){
+    h2{
+        font-size: 40px;
+    }
+    .pink-block{
+        p{
+            font-size: 20px;
+        }
+    }
+    .wrappen-p{
+        max-width: 500px;
+        margin:0 auto;
+    }
+}
+@media (max-width: 575px){
+    .absolut-picture{
+        .pic-one{
+            display:none;
+        }
+        .pic-two{
+            display:none;
+        }
+    }
+}

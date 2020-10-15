@@ -96,4 +96,35 @@ h1{
         display:none;
     }
 }
+@media (max-width: 770px){
+    h1{
+        font-size: 55px;
+        margin:120px 0 0 0;
+    }
+    .subtitle{
+        font-size: 25px;
+        margin-bottom: 60px;
+    }
+    .part-button{
+        color: #ff7f7f;
+        font-size: 20px;
+        border: none;
+        padding:20px 70px;
+        border-radius: 50px;
+    }
+}
+@media (max-width: 575px){
+    h1{
+        font-size: 50px;
+        margin:100px 0 0 0;
+    }
+    .subtitle{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    .part-button{
+        font-size: 18px;
+        padding:18px 50px;
+    }
+}
 

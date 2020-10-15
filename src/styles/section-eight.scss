@@ -46,3 +46,29 @@
    .box-four{
     display: block;
   } 
+
+
+
+  @media (max-width: 1230px){
+    .section-eight{
+        padding: 150px 5px 170px 5px;
+      }
+    .box-one{
+        width: 100%;
+      }
+    .eight-text{
+        max-width: 700px;
+      }
+  }
+  @media (max-width: 575px){
+    .section-eight{
+        padding: 30px 5px 60px 5px;
+      }
+    .eight-text{
+        max-width: 700px;
+        font-size: 15px;
+      }
+      .eight-nav{
+          font-size: 15px;
+      }
+  }

@@ -18,7 +18,7 @@ h5{
 .active--block{
     text-align:center;
 }
-.big-picone{
+.big-pictwo{
     display:block;
     max-width: 100%;
     height: auto;
@@ -84,7 +84,7 @@ h5{
     position: relative;
 }
 .container-seven{
-    width: 880px;
+    max-width: 880px;
     margin:0 auto;
     color:#ff7f7f;
     text-align: center;
@@ -149,12 +149,11 @@ h5{
 
 @media (max-width: 990px){
     .container-five{
-        padding: 50px 0;
-        h5{
-            font-size: 45px;
-            margin: 40px 0 0 0;
-            
-        }
+        padding: 90px 0;
+    }
+    h5{
+        font-size: 45px;
+        margin: 0px;
     }
     .active--block{
         padding-top: 50px;
@@ -163,12 +162,98 @@ h5{
         display:none;
     }
     .pic-six{
-        top:100px;
+        top:40px;
         right:50px;
     }
     .pic-oneactive{
         bottom:70px;
         left:30px;
     }
+    .block-three{
+        bottom: 60px;
+        left:100px;
+    }
+    .block-four{
+        top:160px;
+        left:30px;
+    }
+    .block-six{
+        bottom:-150px;
+        right:200px;
+    }
 
+}
+@media (max-width: 770px){
+    .block-four{
+        display:none;
+    }
+    .block-six{
+        bottom:-150px;
+        right:100px;
+    }
+}
+@media (max-width: 575px){
+    
+    .pic-six{
+        top:-50px;
+        right:50px;
+    }
+    .pic-oneactive{
+       display:none;
+    }
+    .section-six{
+        height: auto;
+    }
+    .pink-bg{
+        height: 546px;
+    }
+    .container-six{
+        padding:40px 0 50px 0;
+            p{
+                font-size: 20px;
+                max-width: 300px;
+                margin:15px auto;
+            }
+            span{
+                font-size: 30px;
+            }
+    }
+
+    .container-seven{
+        padding:80px 0 80px 0;
+            h6{
+                margin:0;
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+                margin:20px 0 55px 0;
+            }
+            .subscribe_input{
+                font-size: 14px;
+                padding: 18px 25px;
+                width: 50%;
+            }
+            .subscribe_btn{
+            left: -30px;
+            font-size: 14px;
+            padding: 18px 11px;
+        }
+    }
+    .block-two{
+        display: none;
+    }
+    .section-seven{
+       background-image: none;
+       width: 100%;
+       height: auto;
+    }
+    .block-three{
+        bottom:-650px;
+        right:-10px;
+    }
+    .block-six{
+        bottom:-80px;
+        right:20px;
+    }
 }
