@@ -1,8 +1,9 @@
 .section-two{
     position: relative;
-    z-index: 4;
+    z-index: 1;
+    background: #ff7f7f;
     color:#fff;
-    margin: 541px auto 0;
+    margin: 54px auto 0;
     text-align: center;
 
 }
@@ -10,6 +11,7 @@ h2{
     font-weight: 700;
     font-size: 59px;
     text-transform: uppercase;
+    padding-top:500px;
 }
 .pink-block{
     width: 100%;
@@ -86,10 +88,6 @@ h2{
             right:40px;
         }
     }
-
-}
-
-@media (max-width: 990px){
     h2{
         font-size: 40px;
     }
@@ -103,7 +101,32 @@ h2{
         margin:0 auto;
     }
 }
+@media (max-width: 770px){
+    h2{
+        font-size: 59px;
+        padding-top:200px;
+    }
+}
 @media (max-width: 575px){
+    h2{
+        font-size: 30px;
+        padding-top:100px;
+    }
+    .pink-block{
+        width: 100%;
+        min-height: 500px;
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            margin:0;
+            letter-spacing: 0.9px;
+        }
+    
+    }
+    .flex-plate{
+        flex-basis:100%;
+        padding-bottom:50px;
+    }
     .absolut-picture{
         .pic-one{
             display:none;

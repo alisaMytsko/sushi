@@ -38,10 +38,15 @@
     background: #fff;
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
   }
   .eight-nav{
     color: #fff;
     font-size: 24px;
+  }
+  .eight-nav:hover{
+      color: #ff7f7f;
+
   }
    .box-four{
     display: block;
