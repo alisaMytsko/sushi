@@ -109,10 +109,11 @@ h5{
             width: 50%;
             max-width: 700px;
             border: none;
+           
         }
         .subscribe_btn{
         position: relative;
-        left: -60px;
+        margin-left: -10%;
         border: 0;
         background: #ff7f7f;
         text-transform: uppercase;
@@ -207,6 +208,10 @@ h5{
         bottom:-150px;
         right:100px;
     }
+    .block-three{
+        bottom: 0px;
+        right: 0px;
+    }
     .container-six{
         padding:100px 0 0 0;
     }
@@ -271,7 +276,6 @@ h5{
                 border-bottom-right-radius: 0px;
             }
             .subscribe_btn{
-            left: -24px;
             font-size: 14px;
             padding: 18px 11px;
         }
