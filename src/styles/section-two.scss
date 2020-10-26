@@ -39,7 +39,7 @@ h2{
         font-weight: 700;
         font-size: 28px;
         letter-spacing: normal;
-        margin: 0 0 6px 0;
+        margin: 45px 0 6px 0;
         top:-15px;
         position: relative;
     }
@@ -48,7 +48,7 @@ h2{
         font-size: 17px;
     }
     .active--plate{
-        margin-top:9px;
+        margin-top:51px;
     }
 }
 .absolut-picture{
@@ -110,7 +110,11 @@ h2{
 @media (max-width: 575px){
     h2{
         font-size: 30px;
-        padding-top:100px;
+        padding-top:170px;
+    }
+    .wrappen-p{
+        max-width: 300px;
+        margin:0 auto;
     }
     .pink-block{
         width: 100%;
@@ -126,7 +130,12 @@ h2{
     .flex-plate{
         flex-basis:100%;
         padding-bottom:50px;
+        margin:0 auto;
     }
+    // .subplate{
+    //     max-width: 200px;
+    //     margin:0 auto;
+    // }
     .absolut-picture{
         .pic-one{
             display:none;
@@ -134,5 +143,9 @@ h2{
         .pic-two{
             display:none;
         }
+    }
+    .container-plate{
+        max-width: 300px;
+        margin: 40px auto 0;
     }
 }
